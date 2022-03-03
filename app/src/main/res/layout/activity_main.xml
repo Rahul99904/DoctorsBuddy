@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/docmainback">
+
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#def6f3"
+        android:textColorHint="@color/colorAccent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#def6f3"
+        android:layout_below="@id/tvid"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:text="Username"
+        android:fontFamily="serif-monospace"
+        android:textSize="15dp"
+        android:visibility="visible"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvpa"
+        android:textColor="#def6f3"
+        android:text="Password"
+        android:layout_above="@id/btsi"
+        android:textSize="15dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="15dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvpa"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/edpa"
+        android:backgroundTint="#def6f3"
+        android:textColor="#def6f3"
+        android:layout_below="@id/edun"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:id="@+id/btsi"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/edpa"
+        android:backgroundTint="#def6f3"
+        android:layout_marginTop="58dp"
+        android:fontFamily="serif-monospace"
+        android:background="@color/colorPrimary"
+        android:text="SignUp"></Button>
+
+    <TextView
+        android:id="@+id/tvor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btsi"
+        android:textColor="#def6f3"
+        android:layout_marginTop="33dp"
+        android:fontFamily="serif-monospace"
+        android:text="OR"></TextView>
+
+    <Button
+        android:id="@+id/btli"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:backgroundTint="#def6f3"
+        android:layout_below="@id/tvor"
+        android:layout_marginTop="49dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="serif-monospace"
+        android:text="Login"></Button>
+
+    <EditText
+        android:id="@+id/edun"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_toEndOf="@id/tvun"
+        android:backgroundTint="#def6f3"
+        android:textColor="#def6f3"
+        android:autofillHints="@android:string/autofill"
+        android:inputType="textPersonName"></EditText>
+
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/docmainback">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmumgn"
+        android:fontFamily="serif-monospace"
+        android:text="GENERAL"
+        android:textColor="#def6f3"
+        android:textSize="25dp"
+        android:layout_marginTop="44dp"></TextView>
+
+
+    <TextView
+        android:id="@+id/tvmumsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="44dp"
+        android:layout_toRightOf="@id/tvmumgn"
+        android:fontFamily="serif-monospace"
+        android:text="SPECIALIZED"
+        android:textColor="#def6f3"
+        android:textSize="25dp"></TextView>
+
+
+    <Button
+        android:id="@+id/btmumgnjj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvmumgn"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="J.D HOSP"></Button>
+
+    <Button
+        android:id="@+id/btmumsptt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvmumsp"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/btmumgnjj"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="TATA CANCER"></Button>
+
+
+    <Button
+        android:id="@+id/btmumgnsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumgnjj"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="SIGMA HOSP"></Button>
+
+
+    <Button
+        android:id="@+id/btmumgnll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumgnsi"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="L.D HOSP"></Button>
+
+
+
+    <Button
+        android:id="@+id/btmumgnft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumgnll"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="FORTIS HOSP"></Button>
+
+
+
+    <Button
+        android:id="@+id/btmumgnhj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumgnft"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="HINUDJA HOSP"></Button>
+
+
+    <Button
+        android:id="@+id/btmumgnkda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumgnhj"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="K.D.A HOSP"></Button>
+
+
+    <Button
+        android:id="@+id/btmumspap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumsptt"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/btmumgnjj"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="APPOLO CANCER"></Button>
+
+
+    <Button
+        android:id="@+id/btmumspkc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumspap"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/btmumgnjj"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="KRISHNA CANCER"></Button>
+
+
+    <Button
+        android:id="@+id/btmumspsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumspkc"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/btmumgnjj"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="SINO VEDIC"></Button>
+
+    <Button
+        android:id="@+id/btmumsphcg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumspsv"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/btmumgnjj"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="HCG CANCER"></Button>
+
+    <Button
+        android:id="@+id/btmumsps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmumsphcg"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/btmumgnjj"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="SUN CANCER"></Button>
+
+
+
+
+
+
+
+</RelativeLayout>

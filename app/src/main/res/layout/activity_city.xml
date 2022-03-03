@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/docmainback">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#def6f3"
+        android:text="Select City"
+        android:textSize="25dp"
+        android:id="@+id/tvc"
+        android:fontFamily="serif-monospace"></TextView>
+
+    <Button
+        android:id="@+id/btmum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvc"
+        android:layout_marginTop="69dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="MUMBAI" />
+
+    <Button
+        android:id="@+id/btth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btmum"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="THANE" />
+
+    <Button
+        android:id="@+id/btpn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvc"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="71dp"
+        android:layout_toRightOf="@id/btth"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="PUNE" />
+
+    <Button
+        android:id="@+id/btbh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btpn"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@id/btth"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="BHIWANDI" />
+
+    <Button
+        android:id="@+id/btkl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvc"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/btpn"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="KALYAN" />
+
+    <Button
+        android:id="@+id/btdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btkl"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@id/btbh"
+        android:backgroundTint="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:text="DOMBIVALI" />
+
+
+</RelativeLayout>

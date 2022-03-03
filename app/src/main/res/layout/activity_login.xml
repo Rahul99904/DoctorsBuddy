@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/docmainback">
+
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        android:fontFamily="serif-monospace"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#def6f3"
+        android:textColorHint="@color/colorAccent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <TextView
+        android:id="@+id/tvun"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:textColor="#def6f3"
+        android:layout_below="@id/tvid"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:text="Username"
+
+        android:visibility="visible"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvpa"
+        android:textColor="#def6f3"
+        android:text="Password"
+        android:layout_above="@id/btlg"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="15dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvpa"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/edlipa"
+        android:backgroundTint="#def6f3"
+        android:textColor="#def6f3"
+        android:layout_below="@id/edliun"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:id="@+id/btlg"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/edlipa"
+        android:backgroundTint="#def6f3"
+        android:layout_marginTop="58dp"
+        android:fontFamily="serif-monospace"
+        android:background="@color/colorPrimary"
+        android:text="LogIn"></Button>
+
+
+
+
+
+    <EditText
+        android:id="@+id/edliun"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvun"
+        android:backgroundTint="#def6f3"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:autofillHints="@android:string/autofill"
+        android:inputType="text"></EditText>
+
+
+</RelativeLayout>

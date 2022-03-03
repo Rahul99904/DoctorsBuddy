@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018807967293",
+    "firebase_url": "https://doctor-buddy-9631b.firebaseio.com",
+    "project_id": "doctor-buddy-9631b",
+    "storage_bucket": "doctor-buddy-9631b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018807967293:android:be78eede7fc0b6a8959454",
+        "android_client_info": {
+          "package_name": "com.example.doctorbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018807967293-51o58crh5gu5tdroacrr5punks6oqlnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doctorbuddy",
+            "certificate_hash": "30a550a147c385f68ca9e32a8a390ad7641ac125"
+          }
+        },
+        {
+          "client_id": "1018807967293-20lh7eskgdcbrburomc74dq8ph0edvfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLUbMBM0w3NsbS-cq7ipFaYfK4OPqwSXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018807967293-20lh7eskgdcbrburomc74dq8ph0edvfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

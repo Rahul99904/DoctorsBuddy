@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/docmainback">
+
+
+    <TextView
+        android:id="@+id/tvapmum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="serif-monospace"
+        android:text="APPOINTMENT"
+        android:textColor="#def6f3"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#def6f3"
+        android:layout_below="@id/tvapmum"
+        android:id="@+id/tvjjname"
+        android:layout_marginTop="44dp"></TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="281dp"
+        android:maxLines="1"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@id/tvjjname"
+        android:textColor="#cc594f"
+        android:id="@+id/edjjname"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjemail"
+        android:layout_below="@id/edjjname"
+        android:text="E-Mail"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjemail"
+        android:width="281dp"
+        android:maxLines="1"
+        android:textColor="#cc594f"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/edjjemail"></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvapmum"
+        android:layout_marginLeft="273dp"
+        android:layout_marginTop="44dp"
+        android:layout_toRightOf="@id/tvjjname"
+        android:fontFamily="serif-monospace"
+        android:text="Age"
+        android:textColor="#def6f3"
+        android:id="@+id/tvjjage"
+        android:textSize="18dp"></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjage"
+        android:layout_toRightOf="@id/edjjname"
+        android:width="94dp"
+        android:maxLines="1"
+        android:id="@+id/edjjage"
+        android:inputType="number"
+        android:fontFamily="serif-monospace"
+        android:textColor="#cc594f"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edjjage"
+        android:layout_toRightOf="@id/tvjjemail"
+        android:text="Weight"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:textSize="18dp"
+        android:id="@+id/tvjjdob"
+        android:layout_marginLeft="250dp"></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjdob"
+        android:maxLines="1"
+        android:width="94dp"
+        android:inputType="number"
+        android:fontFamily="serif-monospace"
+        android:textColor="#cc594f"
+        android:id="@+id/edjjdob"
+        android:layout_toRightOf="@id/edjjemail"></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjgen"
+        android:layout_below="@id/edjjemail"
+        android:text="Gender"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjgen"
+        android:id="@+id/rgjjgen">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvjjgen"
+            android:text="MALE"
+            android:textColor="#def6f3"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/rb1jjgen"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2jjgen"
+            android:text="FEMALE"
+            android:textColor="#def6f3"
+            android:layout_below="@id/tvjjgen"
+            android:fontFamily="serif-monospace"></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edjjdob"
+        android:layout_toRightOf="@id/tvjjgen"
+        android:text="Medical.Description"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:textSize="18dp"
+        android:id="@+id/tvjjmd"
+        android:layout_marginLeft="120dp"></TextView>
+
+
+    <EditText
+        android:id="@+id/edjjmd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjgen"
+        android:layout_marginLeft="62dp"
+        android:layout_toRightOf="@id/rgjjgen"
+        android:width="240dp"
+        android:fontFamily="serif-monospace"
+        android:maxLines="2"
+        android:textColor="#cc594f"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjbg"
+        android:layout_below="@id/rgjjgen"
+        android:text="Blood Group"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjbg"
+        android:width="50dp"
+        android:maxLines="1"
+        android:textColor="#cc594f"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/edjjbg"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgjjgen"
+        android:layout_toRightOf="@id/tvjjgen"
+        android:text="Insurance No"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:textSize="18dp"
+        android:id="@+id/tvjjin"
+        android:layout_marginLeft="190dp"></TextView>
+
+
+    <EditText
+        android:id="@+id/edjjin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjin"
+        android:layout_marginLeft="151dp"
+        android:layout_toRightOf="@id/rgjjgen"
+        android:width="150dp"
+        android:inputType="number"
+        android:fontFamily="serif-monospace"
+        android:maxLines="1"
+        android:textColor="#cc594f"></EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjtb"
+        android:layout_below="@id/edjjbg"
+        android:text="Con.Alcohol/Tobacco"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjtb"
+        android:id="@+id/rgjjtb">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvjjgen"
+            android:text="Yes"
+            android:textColor="#def6f3"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/rb1jjtb"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2jjtb"
+            android:text="No"
+            android:textColor="#def6f3"
+            android:layout_below="@id/tvjjgen"
+            android:fontFamily="serif-monospace"></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edjjin"
+        android:layout_toRightOf="@id/tvjjgen"
+        android:text="P.Challenged"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:textSize="18dp"
+        android:id="@+id/tvjjpc"
+        android:layout_marginLeft="190dp"></TextView>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjtb"
+        android:id="@+id/rgjjpc">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvjjpc"
+            android:layout_marginLeft="280dp"
+            android:text="Yes"
+            android:textColor="#def6f3"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/rb1jjpc"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2jjpc"
+            android:layout_marginLeft="280dp"
+            android:text="No"
+            android:textColor="#def6f3"
+            android:layout_below="@id/tvjjgen"
+            android:fontFamily="serif-monospace"></RadioButton>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjtp"
+        android:layout_below="@id/rgjjtb"
+        android:text="Test Performed?"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjtp"
+        android:id="@+id/rgjjtp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvjjgen"
+            android:text="Yes"
+            android:textColor="#def6f3"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/rb1jjtp"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2jjtp"
+            android:text="No"
+            android:textColor="#def6f3"
+            android:layout_below="@id/tvjjgen"
+            android:fontFamily="serif-monospace"></RadioButton>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgjjpc"
+        android:layout_toRightOf="@id/tvjjgen"
+        android:text="Marital Status"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:textSize="18dp"
+        android:id="@+id/tvjjms"
+        android:layout_marginLeft="190dp"></TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjms"
+        android:layout_marginLeft="280dp"
+        android:id="@+id/rgjjms">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvjjgen"
+            android:text="Married"
+            android:textColor="#def6f3"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/rb1jjms"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2jjms"
+            android:text="Unmarried"
+            android:textColor="#def6f3"
+            android:layout_below="@id/tvjjgen"
+            android:fontFamily="serif-monospace"></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjtpw"
+        android:layout_below="@id/rgjjtp"
+        android:text="If yes, What?"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjtpw"
+        android:width="200dp"
+        android:maxLines="1"
+        android:textColor="#cc594f"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/edjjtpw"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgjjms"
+        android:layout_toRightOf="@id/tvjjgen"
+        android:text="Mb.No"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"
+        android:textSize="18dp"
+        android:id="@+id/tvjjmb"
+        android:layout_marginLeft="190dp"></TextView>
+
+    <EditText
+        android:id="@+id/edjjmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjmb"
+        android:layout_marginLeft="151dp"
+        android:layout_toRightOf="@id/rgjjgen"
+        android:width="150dp"
+        android:inputType="number"
+        android:fontFamily="serif-monospace"
+        android:maxLines="1"
+        android:textColor="#cc594f"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjjad"
+        android:layout_below="@id/edjjtpw"
+        android:text="Address"
+        android:textSize="18dp"
+        android:textColor="#def6f3"
+        android:fontFamily="serif-monospace"></TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjjad"
+        android:width="400dp"
+        android:maxLines="2"
+        android:textColor="#cc594f"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/edjjad"></EditText>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btregjj"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Register"
+        android:fontFamily="serif-monospace"></Button>
+
+
+
+</RelativeLayout>

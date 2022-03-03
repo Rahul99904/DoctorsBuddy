@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/docmainback"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvapmum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="serif-monospace"
+        android:text="SELECT DOCTOR"
+        android:textColor="#def6f3"
+        android:textSize="25dp"></TextView>
+
+
+    <TextView
+        android:id="@+id/tvjjbone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvapmum"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="44dp"
+        android:text="ORTHOPEDIC"
+        android:fontFamily="serif-monospace"
+        android:textColor="#def6f3"
+        android:textSize="20dp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/rgbone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvapmum"
+        android:layout_marginTop="61dp">
+
+
+        <RadioButton
+            android:id="@+id/rbjjbp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="DR.PAUL[Surgeon] timing:-9.00AM 12.00AM"
+            android:textColor="#def6f3"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjbr"
+            android:text="DR.RAO[P.Surgeon] timing:-9.00AM 11.00AM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"></RadioButton>
+
+
+        <TextView
+            android:id="@+id/tvjjheart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="CARDIOLOGIST"
+            android:textColor="#def6f3"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjhs"
+            android:text="DR.SINGH [EP]  timing:-10.00AM  01.00PM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"
+            android:layout_marginTop="15dp"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjhi"
+            android:text="DR.IYER [NI]  timing:-10.00AM  11.00AM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"></RadioButton>
+
+
+
+        <TextView
+            android:id="@+id/tvjjhair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="TRICHOLOGIST"
+            android:textColor="#def6f3"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjhal"
+            android:text="DR.LOUIS [SURGEON]  timing:-10.00AM  01.00PM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"
+            android:layout_marginTop="15dp"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjhab"
+            android:text="DR.KK [SURGEON]  timing:-10.00AM  11.00AM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"></RadioButton>
+
+
+
+        <TextView
+            android:id="@+id/tvjjgeneral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="GENERAL"
+            android:textColor="#def6f3"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjgm"
+            android:text="DR.MEHTA [MBBS]  timing:-10.00AM  01.00PM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"
+            android:layout_marginTop="15dp"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbjjgp"
+            android:text="DR.PATIL [MBBS]  timing:-10.00AM  11.00AM"
+            android:fontFamily="serif-monospace"
+            android:textColor="#def6f3"></RadioButton>
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btjjnext"
+        android:layout_below="@id/rgbone"
+        android:layout_marginTop="76dp"
+        android:fontFamily="serif-monospace"
+        android:text="NEXT>>"
+        android:layout_toRightOf="@id/tvapmum"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/docmainback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#def6f3"
+        android:layout_marginTop="100dp"
+        android:text="Registered Successfully"
+        android:textSize="25dp"
+        android:id="@+id/tvff"
+        android:fontFamily="serif-monospace"></TextView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btff"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="576dp"
+        android:fontFamily="serif-monospace"
+        android:text="LOGOUT>>"></Button>
+
+
+
+
+</RelativeLayout>
